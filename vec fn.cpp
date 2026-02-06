@@ -3,10 +3,12 @@
 using namespace std;
 
 int main() {
-    vector<int>vec = {'a','b','c','d','e'};
+    vector<int>vec ;
     cout<<"size = "<<vec.size()<<endl; // for size
+    vec.push_back(25);
+    cout<<"after puch back size = "<<vec.size()<<endl; // for size
 
-    for(char val : vec) {
+    for(int val : vec) {
         cout<<val<<endl;
     }
 
